@@ -119,6 +119,7 @@ if($estadoEnvio){
     echo "El correo fue enviado correctamente.";
 } else {
     echo "Ocurri� un error inesperado.";
+    exit();
 }
 
 // redirect to success page
